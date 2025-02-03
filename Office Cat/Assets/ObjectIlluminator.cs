@@ -29,6 +29,7 @@ public class ObjectIlluminator : MonoBehaviour
 
             else{
                 glow.SetActive(false);
+                hasGlowed = false;
             }
             
         }
