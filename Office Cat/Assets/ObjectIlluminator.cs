@@ -12,12 +12,6 @@ public class ObjectIlluminator : MonoBehaviour
         glow.SetActive(false);
     }
 
-    void interact()
-    {
-        Collider2D hit = Physics2D.OverlapCircle(transform.position, 2f, ~0);
-        if (hit != null)
-    }
-
     void Update()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, 2f, ~0);
