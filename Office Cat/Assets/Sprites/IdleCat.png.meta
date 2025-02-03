@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 7674b69526043c04b9fd9964f0209aea
 TextureImporter:
   internalIDToNameTable:
@@ -24,32 +23,6 @@ TextureImporter:
   - first:
       213: 5686029165683985648
     second: IdleCat_6
-=======
-guid: a56ecd23d1e254340940d6c037dcabdf
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 1412338688431055056
-    second: IdleCatb_0
-  - first:
-      213: -3704076387589599679
-    second: IdleCatb_1
-  - first:
-      213: -146309593775845794
-    second: IdleCatb_2
-  - first:
-      213: -2425222627614382202
-    second: IdleCatb_3
-  - first:
-      213: 2113040345732193316
-    second: IdleCatb_4
-  - first:
-      213: 2094818428952327685
-    second: IdleCatb_5
-  - first:
-      213: 5179047738216623394
-    second: IdleCatb_6
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -82,11 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
     filterMode: 1
-=======
-    filterMode: 0
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,11 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
   spritePixelsToUnits: 100
-=======
-  spritePixelsToUnits: 20
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -162,7 +127,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
   - serializedVersion: 4
     buildTarget: WindowsStoreApps
     maxTextureSize: 2048
@@ -176,17 +140,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< HEAD
       name: IdleCat_0
-=======
-      name: IdleCatb_0
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       rect:
         serializedVersion: 2
         x: 3
@@ -201,23 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< HEAD
       spriteID: 7d7a0cf9275e8e590800000000000000
       internalID: -7644608086992181289
-=======
-      spriteID: 0d06972ed82a99310800000000000000
-      internalID: 1412338688431055056
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: IdleCat_1
-=======
-      name: IdleCatb_1
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       rect:
         serializedVersion: 2
         x: 35
@@ -232,23 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< HEAD
       spriteID: da6438ada5e9b2c90800000000000000
       internalID: -7193481866743953747
-=======
-      spriteID: 14e4fc8862a789cc0800000000000000
-      internalID: -3704076387589599679
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: IdleCat_2
-=======
-      name: IdleCatb_2
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       rect:
         serializedVersion: 2
         x: 64
@@ -263,23 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< HEAD
       spriteID: 8155426b867ac7270800000000000000
       internalID: 8249652685610177816
-=======
-      spriteID: e5e42cb133438fdf0800000000000000
-      internalID: -146309593775845794
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: IdleCat_3
-=======
-      name: IdleCatb_3
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       rect:
         serializedVersion: 2
         x: 95
@@ -294,23 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< HEAD
       spriteID: 04e9439a6759f7170800000000000000
       internalID: 8178419785205587520
-=======
-      spriteID: 6872ecb9ed0e75ed0800000000000000
-      internalID: -2425222627614382202
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: IdleCat_4
-=======
-      name: IdleCatb_4
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       rect:
         serializedVersion: 2
         x: 127
@@ -325,23 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< HEAD
       spriteID: 28598b19c2c185600800000000000000
       internalID: 457146339927037314
-=======
-      spriteID: 42c9f63cff6035d10800000000000000
-      internalID: 2113040345732193316
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: IdleCat_5
-=======
-      name: IdleCatb_5
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       rect:
         serializedVersion: 2
         x: 160
@@ -356,23 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< HEAD
       spriteID: ba36738265f1379e0800000000000000
       internalID: -1624920585648249941
-=======
-      spriteID: 50635a6234a421d10800000000000000
-      internalID: 2094818428952327685
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: IdleCat_6
-=======
-      name: IdleCatb_6
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       rect:
         serializedVersion: 2
         x: 195
@@ -387,13 +291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< HEAD
       spriteID: 0fcca1b7665d8ee40800000000000000
       internalID: 5686029165683985648
-=======
-      spriteID: 22d21376a7cafd740800000000000000
-      internalID: 5179047738216623394
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
       vertices: []
       indices: 
       edges: []
@@ -411,18 +310,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
     nameFileIdTable: {}
-=======
-    nameFileIdTable:
-      IdleCatb_0: 1412338688431055056
-      IdleCatb_1: -3704076387589599679
-      IdleCatb_2: -146309593775845794
-      IdleCatb_3: -2425222627614382202
-      IdleCatb_4: 2113040345732193316
-      IdleCatb_5: 2094818428952327685
-      IdleCatb_6: 5179047738216623394
->>>>>>> 00c573caccd80fa0cb0a733642fa28f4aaa91440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
