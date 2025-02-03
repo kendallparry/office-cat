@@ -7,12 +7,16 @@ public class ObjectIlluminator : MonoBehaviour
     private Rigidbody2D rb;
     private bool hasGlowed = false;
     void Start()
-    {  
+    {
         rb = GetComponent<Rigidbody2D>();
         glow.SetActive(false);
     }
 
-
+    void interact()
+    {
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, 2f, ~0);
+        if (hit != null)
+    }
 
     void Update()
     {
