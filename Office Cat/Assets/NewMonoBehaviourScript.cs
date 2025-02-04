@@ -6,10 +6,10 @@ public class InteractionManager : MonoBehaviour
     public List<GameObject> interactionSequence; // List of objects to interact with in order
     private int currentStep = 0; // Current step in the sequence
 
-    public GameObject spritePrefab; // The sprite that will follow the player
+    public List<GameObject> spritePrefab; // The sprite that will follow the player
     private GameObject spawnedSprite; // Instance of the spawned sprite
 
-    public Transform player; // Reference to the player's transform
+    private Transform player; // Reference to the player's transform
 
     void Update()
     {
@@ -42,18 +42,13 @@ public class InteractionManager : MonoBehaviour
                 SpawnSprite();
             }
         }
-        else
-        {
-            // Wrong object interacted with, reset sequence
-            currentStep = 0;
-        }
     }
 
     void SpawnSprite()
     {
         if (spritePrefab != null && spawnedSprite == null)
         {
-            spawnedSprite = Instantiate(spritePrefab, player.position, Quaternion.identity);
+            spawnedSprite = Instantiate(spritePrefab[currentStep], player.position, Quaternion.identity);
         }
     }
 
