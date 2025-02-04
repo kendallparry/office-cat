@@ -6,24 +6,10 @@ public class InteractionManager : MonoBehaviour
     public List<GameObject> interactionSequence; // List of objects to interact with in order
     private int currentStep = 0; // Current step in the sequence
 
-    public List<GameObject> spritePrefab; // The sprite that will follow the player
+    public GameObject spritePrefab; // The sprite that will follow the player
     private GameObject spawnedSprite; // Instance of the spawned sprite
 
-    private Transform player; // Reference to the player's transform
-
-    void Start()
-    {
-        // Find the player GameObject by tag and get its transform
-        GameObject playerObject = GameObject.FindWithTag("Player");
-        if (playerObject != null)
-        {
-            player = playerObject.transform;
-        }
-        else
-        {
-            Debug.LogError("Player GameObject not found. Please ensure it has the 'Player' tag.");
-        }
-    }
+    public Transform player; // Reference to the player's transform
 
     void Update()
     {
@@ -38,7 +24,7 @@ public class InteractionManager : MonoBehaviour
         }
 
         // Make the sprite follow the player if it's spawned
-        if (spawnedSprite != null && player != null)
+        if (spawnedSprite != null)
         {
             spawnedSprite.transform.position = player.position + new Vector3(1, 1, 0); // Adjust offset as needed
         }
@@ -65,9 +51,9 @@ public class InteractionManager : MonoBehaviour
 
     void SpawnSprite()
     {
-        if (spritePrefab != null && spawnedSprite == null && player != null)
+        if (spritePrefab != null && spawnedSprite == null)
         {
-            spawnedSprite = Instantiate(spritePrefab[currentStep], player.position, Quaternion.identity);
+            spawnedSprite = Instantiate(spritePrefab, player.position, Quaternion.identity);
         }
     }
 
