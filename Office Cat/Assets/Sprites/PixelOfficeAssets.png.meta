@@ -202,7 +202,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -1535,7 +1535,63 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PixelOfficeAssets_0: -7271763527299383784
+      PixelOfficeAssets_1: 3676147891487690484
+      PixelOfficeAssets_10: -2777367087475402831
+      PixelOfficeAssets_11: 1234045625099090367
+      PixelOfficeAssets_12: -195785525709385407
+      PixelOfficeAssets_13: -7851682181384933989
+      PixelOfficeAssets_14: -342301325801493883
+      PixelOfficeAssets_15: 4761254373709036940
+      PixelOfficeAssets_16: -6736183305252478953
+      PixelOfficeAssets_17: -821808532107802635
+      PixelOfficeAssets_18: -5646501864941631083
+      PixelOfficeAssets_19: 4752718965130528658
+      PixelOfficeAssets_2: -6477493617829449613
+      PixelOfficeAssets_20: 6663607382090127383
+      PixelOfficeAssets_21: -965188444248818786
+      PixelOfficeAssets_22: 4485465026094667126
+      PixelOfficeAssets_23: -4576943631702441962
+      PixelOfficeAssets_24: 5132571747697680498
+      PixelOfficeAssets_25: 4563191688391546345
+      PixelOfficeAssets_26: -6577931756215185911
+      PixelOfficeAssets_27: 5419390883246644464
+      PixelOfficeAssets_28: 5000613781093252364
+      PixelOfficeAssets_29: -4435885805887634418
+      PixelOfficeAssets_3: 4083885089593249691
+      PixelOfficeAssets_30: -8066190925033470020
+      PixelOfficeAssets_31: 2692148016969119746
+      PixelOfficeAssets_32: 3467554412643907554
+      PixelOfficeAssets_33: 8337764890687534412
+      PixelOfficeAssets_34: 5104892911730743447
+      PixelOfficeAssets_35: 6120954501006694737
+      PixelOfficeAssets_36: -4930726930409121452
+      PixelOfficeAssets_37: -1255217664399373725
+      PixelOfficeAssets_38: 7144587705238411963
+      PixelOfficeAssets_39: -4503781077620338201
+      PixelOfficeAssets_4: -1670024694500576332
+      PixelOfficeAssets_40: -7179098694952198742
+      PixelOfficeAssets_41: 3119051065560786289
+      PixelOfficeAssets_42: 1164198214596868580
+      PixelOfficeAssets_43: 4863692313126216162
+      PixelOfficeAssets_44: -8458901710768802028
+      PixelOfficeAssets_45: -5607137567527353434
+      PixelOfficeAssets_46: -386728607022801062
+      PixelOfficeAssets_47: -8482251252452995244
+      PixelOfficeAssets_48: 6750547504434444062
+      PixelOfficeAssets_49: 7800556918131655672
+      PixelOfficeAssets_5: -2324927289413320140
+      PixelOfficeAssets_50: 7057848806957298190
+      PixelOfficeAssets_51: -3630164164910445282
+      PixelOfficeAssets_52: 8295066425557332125
+      PixelOfficeAssets_53: -2885904433027117117
+      PixelOfficeAssets_54: 39153548765281415
+      PixelOfficeAssets_55: 2421527390207758791
+      PixelOfficeAssets_6: 8556382469748982914
+      PixelOfficeAssets_7: 5276665719044959393
+      PixelOfficeAssets_8: -1790682264551540933
+      PixelOfficeAssets_9: -8603951370828081914
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
