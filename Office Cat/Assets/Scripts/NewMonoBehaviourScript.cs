@@ -10,17 +10,25 @@ public class InteractionManager : MonoBehaviour
     private GameObject spawnedSprite; // Instance of the spawned sprite
 
     private Transform player; // Reference to the player's transform
+    public LayerMask layers;
+
+    void Start()
+    {
+        // Find the player object and assign its transform
+        player = GameObject.FindGameObjectWithTag("player").transform;
+        if (player == null)
+        {
+            Debug.LogError("Player not found! Make sure the player has the 'player' tag.");
+        }
+    }
 
     void Update()
     {
-        // Check for interactions (e.g., mouse click or key press)
-        if (Input.GetMouseButtonDown(0)) // Example: Left mouse click
+        // Check for player input
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null)
-            {
-                CheckInteraction(hit.collider.gameObject);
-            }
+            Debug.Log("Space key pressed. Checking for interactions...");
+            CheckForInteraction();
         }
 
         // Make the sprite follow the player if it's spawned
@@ -30,25 +38,51 @@ public class InteractionManager : MonoBehaviour
         }
     }
 
+    void CheckForInteraction()
+    {
+        // Check for interactions near the player
+        Collider2D hit = Physics2D.OverlapCircle(player.position, 2f, layers);
+
+        if (hit != null && hit.CompareTag("player")==false)
+        {
+            Debug.Log("Hit detected: " + hit.gameObject.name);
+            CheckInteraction(hit.gameObject);
+        }
+        else
+        {
+            Debug.Log(hit);
+            Debug.Log("No interactable object detected.");
+        }
+    }
+
     void CheckInteraction(GameObject interactedObject)
     {
+        Debug.Log(interactedObject + "Rahhhhhhhhhhhhhhhhhh" + interactionSequence[currentStep]);
         if (interactedObject == interactionSequence[currentStep])
         {
+            Debug.Log("Correct interactable object detected: " + interactedObject.name);
             currentStep++;
-
-            if (currentStep >= interactionSequence.Count)
-            {
-                // Sequence completed, spawn the sprite
+            Debug.Log("Interaction sequence completed.");
+            // Sequence completed, spawn the sprite
+            Destroy(spawnedSprite);
                 SpawnSprite();
-            }
+        }
+        else
+        {
+            Debug.Log("Incorrect interactable object detected. Expected: " + interactionSequence[currentStep].name);
         }
     }
 
     void SpawnSprite()
     {
-        if (spritePrefab != null && spawnedSprite == null)
+        if (spritePrefab != null)
         {
-            spawnedSprite = Instantiate(spritePrefab[currentStep], player.position, Quaternion.identity);
+            spawnedSprite = Instantiate(spritePrefab[currentStep-1], player.position, Quaternion.identity);
+            Debug.Log("Sprite spawned: " + spawnedSprite.name);
+        }
+        else
+        {
+            Debug.LogWarning("Prefab list is empty or currentStep is out of bounds.");
         }
     }
 
@@ -60,6 +94,7 @@ public class InteractionManager : MonoBehaviour
             // Move the sprite to the target area
             spawnedSprite.transform.position = targetArea.transform.position;
             spawnedSprite = null; // Clear the reference
+            Debug.Log("Sprite placed in target area: " + targetArea.name);
         }
     }
 }
