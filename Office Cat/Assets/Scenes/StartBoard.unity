@@ -3612,8 +3612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2d90824941850468fc1ab8cccc82bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionSequence: []
-  spritePrefab: []
 --- !u!4 &416858971
 Transform:
   m_ObjectHideFlags: 0
@@ -3910,6 +3908,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 230655047259763320, guid: d5b0bcb1448c5411c9b40b3e59fd6bcf, type: 3}
   m_PrefabInstance: {fileID: 468608851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &517299655 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8880582525942995871, guid: 160d9f881237146ba91b7d5621846ae1, type: 3}
+  m_PrefabInstance: {fileID: 1852022606}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &547864295
 PrefabInstance:
@@ -7223,11 +7226,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6719158122614525985, guid: 160d9f881237146ba91b7d5621846ae1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.123613
+      value: -1.99
       objectReference: {fileID: 0}
     - target: {fileID: 6719158122614525985, guid: 160d9f881237146ba91b7d5621846ae1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.91
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 6719158122614525985, guid: 160d9f881237146ba91b7d5621846ae1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7765,6 +7768,7 @@ GameObject:
   - component: {fileID: 2061480599}
   - component: {fileID: 2061480598}
   - component: {fileID: 2061480601}
+  - component: {fileID: 2061480602}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7891,6 +7895,20 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &2061480602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061480597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aa6f20cc84dd4d96b26ddda1543b7df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTarget: {fileID: 517299655}
+  followOffset: 10
 --- !u!1 &2090402446
 GameObject:
   m_ObjectHideFlags: 0
