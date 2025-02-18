@@ -1,46 +1,46 @@
 fileFormatVersion: 2
-guid: 7695f67cbd68749f6976de481a58ce2a
+guid: d4ea65931f3e5744a80d00bbf02e3cd0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3095597629440444091
-    second: JumpCabt_0
+      213: -8376589877252172401
+    second: JumpCat_0
   - first:
-      213: -8896098698093304796
-    second: JumpCabt_1
+      213: 1573196624288748454
+    second: JumpCat_1
   - first:
-      213: 6486688352939851531
-    second: JumpCabt_2
+      213: -210668480022593438
+    second: JumpCat_2
   - first:
-      213: -8413862932352731061
-    second: JumpCabt_3
+      213: 6393339151851941998
+    second: JumpCat_3
   - first:
-      213: 4084837813343181927
-    second: JumpCabt_4
+      213: -2147592576352674659
+    second: JumpCat_4
   - first:
-      213: -5991440189818791075
-    second: JumpCabt_5
+      213: -7302417281054824399
+    second: JumpCat_5
   - first:
-      213: 633183848351387077
-    second: JumpCabt_6
+      213: -7125748829460613169
+    second: JumpCat_6
   - first:
-      213: -6714304785780199579
-    second: JumpCabt_7
+      213: 7192541340647226027
+    second: JumpCat_7
   - first:
-      213: -6436369320950378579
-    second: JumpCabt_8
+      213: -6090002820517317646
+    second: JumpCat_8
   - first:
-      213: 1099089647164648465
-    second: JumpCabt_9
+      213: 2124607065765673100
+    second: JumpCat_9
   - first:
-      213: 7382674074901874866
-    second: JumpCabt_10
+      213: 7926585022405440748
+    second: JumpCat_10
   - first:
-      213: -832014604900435101
-    second: JumpCabt_11
+      213: -5956505190188782763
+    second: JumpCat_11
   - first:
-      213: -5363420574343494769
-    second: JumpCabt_12
+      213: -6960633318993274865
+    second: JumpCat_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -145,11 +145,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JumpCabt_0
+      name: JumpCat_0
       rect:
         serializedVersion: 2
         x: 3
@@ -164,14 +177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb6c65e84a5c5fa20800000000000000
-      internalID: 3095597629440444091
+      spriteID: f85504143ef50cb80800000000000000
+      internalID: -8376589877252172401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_1
+      name: JumpCat_1
       rect:
         serializedVersion: 2
         x: 35
@@ -186,14 +199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 424655d1e55ba8480800000000000000
-      internalID: -8896098698093304796
+      spriteID: 6a31390aefd15d510800000000000000
+      internalID: 1573196624288748454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_2
+      name: JumpCat_2
       rect:
         serializedVersion: 2
         x: 67
@@ -208,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0fb4a560b8550a50800000000000000
-      internalID: 6486688352939851531
+      spriteID: 260c1e2322e831df0800000000000000
+      internalID: -210668480022593438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_3
+      name: JumpCat_3
       rect:
         serializedVersion: 2
         x: 102
@@ -230,14 +243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b48f948dd34fb3b80800000000000000
-      internalID: -8413862932352731061
+      spriteID: e607bb2d514b9b850800000000000000
+      internalID: 6393339151851941998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_4
+      name: JumpCat_4
       rect:
         serializedVersion: 2
         x: 134
@@ -252,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76c576d495240b830800000000000000
-      internalID: 4084837813343181927
+      spriteID: d9c9b342ee73232e0800000000000000
+      internalID: -2147592576352674659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_5
+      name: JumpCat_5
       rect:
         serializedVersion: 2
         x: 166
@@ -274,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5b1ad034e02adca0800000000000000
-      internalID: -5991440189818791075
+      spriteID: 138ad093c2a98aa90800000000000000
+      internalID: -7302417281054824399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_6
+      name: JumpCat_6
       rect:
         serializedVersion: 2
         x: 194
@@ -296,14 +309,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5cdcf76fa5589c800800000000000000
-      internalID: 633183848351387077
+      spriteID: fc7385581314c1d90800000000000000
+      internalID: -7125748829460613169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_7
+      name: JumpCat_7
       rect:
         serializedVersion: 2
         x: 226
@@ -318,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56fadd90f5ff1d2a0800000000000000
-      internalID: -6714304785780199579
+      spriteID: baaf699dd3a01d360800000000000000
+      internalID: 7192541340647226027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_8
+      name: JumpCat_8
       rect:
         serializedVersion: 2
         x: 258
@@ -340,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dafc785343c6da6a0800000000000000
-      internalID: -6436369320950378579
+      spriteID: 2f330f173b6fb7ba0800000000000000
+      internalID: -6090002820517317646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_9
+      name: JumpCat_9
       rect:
         serializedVersion: 2
         x: 290
@@ -362,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11cee8bf530c04f00800000000000000
-      internalID: 1099089647164648465
+      spriteID: c887f32aede1c7d10800000000000000
+      internalID: 2124607065765673100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_10
+      name: JumpCat_10
       rect:
         serializedVersion: 2
         x: 322
@@ -384,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b8030fb4f6847660800000000000000
-      internalID: 7382674074901874866
+      spriteID: ce4786eb413e00e60800000000000000
+      internalID: 7926585022405440748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_11
+      name: JumpCat_11
       rect:
         serializedVersion: 2
         x: 354
@@ -406,14 +419,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36bf8f200271474f0800000000000000
-      internalID: -832014604900435101
+      spriteID: 55be604a61e365da0800000000000000
+      internalID: -5956505190188782763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumpCabt_12
+      name: JumpCat_12
       rect:
         serializedVersion: 2
         x: 387
@@ -428,8 +441,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f830c3d776d4195b0800000000000000
-      internalID: -5363420574343494769
+      spriteID: f0858a910ecd66f90800000000000000
+      internalID: -6960633318993274865
       vertices: []
       indices: 
       edges: []
@@ -448,19 +461,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      JumpCabt_0: 3095597629440444091
-      JumpCabt_1: -8896098698093304796
-      JumpCabt_10: 7382674074901874866
-      JumpCabt_11: -832014604900435101
-      JumpCabt_12: -5363420574343494769
-      JumpCabt_2: 6486688352939851531
-      JumpCabt_3: -8413862932352731061
-      JumpCabt_4: 4084837813343181927
-      JumpCabt_5: -5991440189818791075
-      JumpCabt_6: 633183848351387077
-      JumpCabt_7: -6714304785780199579
-      JumpCabt_8: -6436369320950378579
-      JumpCabt_9: 1099089647164648465
+      JumpCat_0: -8376589877252172401
+      JumpCat_1: 1573196624288748454
+      JumpCat_10: 7926585022405440748
+      JumpCat_11: -5956505190188782763
+      JumpCat_12: -6960633318993274865
+      JumpCat_2: -210668480022593438
+      JumpCat_3: 6393339151851941998
+      JumpCat_4: -2147592576352674659
+      JumpCat_5: -7302417281054824399
+      JumpCat_6: -7125748829460613169
+      JumpCat_7: 7192541340647226027
+      JumpCat_8: -6090002820517317646
+      JumpCat_9: 2124607065765673100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

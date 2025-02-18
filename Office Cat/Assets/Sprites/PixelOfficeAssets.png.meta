@@ -1,175 +1,7 @@
 fileFormatVersion: 2
 guid: 355c57809d222f5468c75a9b0124fda3
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7271763527299383784
-    second: PixelOfficeAssets_0
-  - first:
-      213: 3676147891487690484
-    second: PixelOfficeAssets_1
-  - first:
-      213: -6477493617829449613
-    second: PixelOfficeAssets_2
-  - first:
-      213: 4083885089593249691
-    second: PixelOfficeAssets_3
-  - first:
-      213: -1670024694500576332
-    second: PixelOfficeAssets_4
-  - first:
-      213: -2324927289413320140
-    second: PixelOfficeAssets_5
-  - first:
-      213: 8556382469748982914
-    second: PixelOfficeAssets_6
-  - first:
-      213: 5276665719044959393
-    second: PixelOfficeAssets_7
-  - first:
-      213: -1790682264551540933
-    second: PixelOfficeAssets_8
-  - first:
-      213: -8603951370828081914
-    second: PixelOfficeAssets_9
-  - first:
-      213: -2777367087475402831
-    second: PixelOfficeAssets_10
-  - first:
-      213: 1234045625099090367
-    second: PixelOfficeAssets_11
-  - first:
-      213: -195785525709385407
-    second: PixelOfficeAssets_12
-  - first:
-      213: -7851682181384933989
-    second: PixelOfficeAssets_13
-  - first:
-      213: -342301325801493883
-    second: PixelOfficeAssets_14
-  - first:
-      213: 4761254373709036940
-    second: PixelOfficeAssets_15
-  - first:
-      213: -6736183305252478953
-    second: PixelOfficeAssets_16
-  - first:
-      213: -821808532107802635
-    second: PixelOfficeAssets_17
-  - first:
-      213: -5646501864941631083
-    second: PixelOfficeAssets_18
-  - first:
-      213: 4752718965130528658
-    second: PixelOfficeAssets_19
-  - first:
-      213: 6663607382090127383
-    second: PixelOfficeAssets_20
-  - first:
-      213: -965188444248818786
-    second: PixelOfficeAssets_21
-  - first:
-      213: 4485465026094667126
-    second: PixelOfficeAssets_22
-  - first:
-      213: -4576943631702441962
-    second: PixelOfficeAssets_23
-  - first:
-      213: 5132571747697680498
-    second: PixelOfficeAssets_24
-  - first:
-      213: 4563191688391546345
-    second: PixelOfficeAssets_25
-  - first:
-      213: -6577931756215185911
-    second: PixelOfficeAssets_26
-  - first:
-      213: 5419390883246644464
-    second: PixelOfficeAssets_27
-  - first:
-      213: 5000613781093252364
-    second: PixelOfficeAssets_28
-  - first:
-      213: -4435885805887634418
-    second: PixelOfficeAssets_29
-  - first:
-      213: -8066190925033470020
-    second: PixelOfficeAssets_30
-  - first:
-      213: 2692148016969119746
-    second: PixelOfficeAssets_31
-  - first:
-      213: 3467554412643907554
-    second: PixelOfficeAssets_32
-  - first:
-      213: 8337764890687534412
-    second: PixelOfficeAssets_33
-  - first:
-      213: 5104892911730743447
-    second: PixelOfficeAssets_34
-  - first:
-      213: 6120954501006694737
-    second: PixelOfficeAssets_35
-  - first:
-      213: -4930726930409121452
-    second: PixelOfficeAssets_36
-  - first:
-      213: -1255217664399373725
-    second: PixelOfficeAssets_37
-  - first:
-      213: 7144587705238411963
-    second: PixelOfficeAssets_38
-  - first:
-      213: -4503781077620338201
-    second: PixelOfficeAssets_39
-  - first:
-      213: -7179098694952198742
-    second: PixelOfficeAssets_40
-  - first:
-      213: 3119051065560786289
-    second: PixelOfficeAssets_41
-  - first:
-      213: 1164198214596868580
-    second: PixelOfficeAssets_42
-  - first:
-      213: 4863692313126216162
-    second: PixelOfficeAssets_43
-  - first:
-      213: -8458901710768802028
-    second: PixelOfficeAssets_44
-  - first:
-      213: -5607137567527353434
-    second: PixelOfficeAssets_45
-  - first:
-      213: -386728607022801062
-    second: PixelOfficeAssets_46
-  - first:
-      213: -8482251252452995244
-    second: PixelOfficeAssets_47
-  - first:
-      213: 6750547504434444062
-    second: PixelOfficeAssets_48
-  - first:
-      213: 7800556918131655672
-    second: PixelOfficeAssets_49
-  - first:
-      213: 7057848806957298190
-    second: PixelOfficeAssets_50
-  - first:
-      213: -3630164164910445282
-    second: PixelOfficeAssets_51
-  - first:
-      213: 8295066425557332125
-    second: PixelOfficeAssets_52
-  - first:
-      213: -2885904433027117117
-    second: PixelOfficeAssets_53
-  - first:
-      213: 39153548765281415
-    second: PixelOfficeAssets_54
-  - first:
-      213: 2421527390207758791
-    second: PixelOfficeAssets_55
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -202,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -216,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -237,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
