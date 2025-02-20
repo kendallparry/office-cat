@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InteractionManager : MonoBehaviour
 {
@@ -58,6 +59,11 @@ public class InteractionManager : MonoBehaviour
     void CheckInteraction(GameObject interactedObject)
     {
         Debug.Log(interactedObject + "Rahhhhhhhhhhhhhhhhhh" + interactionSequence[currentStep]);
+        if(currentStep== interactionSequence.Count - 1)
+        {
+            Destroy(spawnedSprite);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
         if (interactedObject == interactionSequence[currentStep])
         {
             Debug.Log("Correct interactable object detected: " + interactedObject.name);
